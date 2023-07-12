@@ -5,6 +5,11 @@
   height: 100vh;
   background-color: #1e1e2c;
   width: 90px;
+  transition: 0.8s;
+}
+.sidebar-toggle {
+  width: 230px;
+  transition: 0.7s;
 }
 .sidebar-toggle-icons {
   display: flex;
@@ -13,7 +18,7 @@
   cursor: pointer;
 }
 .sidebar-toggle-icons p svg {
-    background-color: #f29a67;
-    color: #fff;
-    margin-top: 30px;
+  background-color: #f29a67;
+  color: #fff;
+  margin-top: 30px;
 }
