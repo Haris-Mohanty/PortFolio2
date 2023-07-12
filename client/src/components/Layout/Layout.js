@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineDoubleLeft } from "react-icons/ai";
 import Home from "../../pages/Home/Home";
 
 const Layout = () => {
@@ -6,7 +7,11 @@ const Layout = () => {
     <>
       <div className="sidebar-section">
         <div className="sidebar">
-          <div className="sidebar-toggle-icons">icon</div>
+          <div className="sidebar-toggle-icons">
+            <p>
+              <AiOutlineDoubleLeft size={30} />
+            </p>
+          </div>
         </div>
         <div className="container">
           <Home />
