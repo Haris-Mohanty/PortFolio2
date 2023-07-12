@@ -11,5 +11,9 @@
   align-items: right;
   justify-content: right;
   cursor: pointer;
-  color: #fff;
+}
+.sidebar-toggle-icons p svg {
+    background-color: #f29a67;
+    color: #fff;
+    margin-top: 30px;
 }
