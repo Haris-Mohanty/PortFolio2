@@ -1,0 +1,15 @@
+.sidebar-section {
+  display: flex;
+}
+.sidebar {
+  height: 100vh;
+  background-color: #1e1e2c;
+  width: 90px;
+}
+.sidebar-toggle-icons {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  cursor: pointer;
+  color: #fff;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineDoubleLeft } from "react-icons/ai";
+import "./layout.css";
 import Home from "../../pages/Home/Home";
 
 const Layout = () => {
