@@ -1,9 +1,11 @@
-
+import Layout from "./components/Layout/Layout";
 
 function App() {
-  return <div>
-    <h1 className="text-danger">Welcome</h1>
-  </div>;
+  return (
+    <>
+      <Layout />
+    </>
+  );
 }
 
 export default App;
