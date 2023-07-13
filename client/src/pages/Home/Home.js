@@ -22,6 +22,10 @@ const Home = () => {
               }}
             />
           </h2>
+          <div className="home-buttons">
+            <button className="btn btn-hire">Hire me!</button>
+            <button className="btn btn-cv">My Resume</button>
+          </div>
         </div>
       </div>
     </>

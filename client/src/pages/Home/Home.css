@@ -9,4 +9,68 @@
 }
 .home-content h2 {
   color: #e0b50f;
+  margin-bottom: 22px;
 }
+
+/* HIRE ME BUTTON CODE START */
+.btn-hire {
+  font-size: 1.2rem;
+  padding: 0.7rem 1.9rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(14, 14, 26);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #1f4c65;
+}
+
+.btn-hire:active {
+  scale: 0.92;
+}
+
+.btn-hire:hover {
+  background: rgb(2, 29, 78);
+  background: linear-gradient(
+    270deg,
+    rgba(2, 29, 78, 0.681) 0%,
+    rgba(31, 215, 232, 0.873) 60%
+  );
+  color: rgb(4, 4, 38);
+}
+/* HIRE ME BUTTON CODE END */
+
+/* CV BUTTON CODE START */
+.btn-cv {
+  font-size: 1.2rem;
+  padding: 0.7rem 1.9rem;
+  margin-left: 0.9em;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(14, 14, 26);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #1f4c65;
+}
+
+.btn-cv:active {
+  scale: 0.92;
+}
+
+.btn-cv:hover {
+  background: rgb(2, 29, 78);
+  background: linear-gradient(
+    270deg,
+    rgba(2, 29, 78, 0.681) 0%,
+    rgba(31, 115, 232, 0.873) 60%
+  );
+  color: rgb(149, 149, 219);
+}
+/* CV BUTTON CODE END */
