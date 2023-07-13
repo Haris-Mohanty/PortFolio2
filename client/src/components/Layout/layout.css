@@ -1,14 +1,16 @@
 .sidebar-section {
   display: flex;
+  background-color: #000;
 }
 .sidebar {
   height: 100vh;
   background-color: #1e1e2c;
   width: 90px;
+  position: fixed;
   transition: 0.8s;
 }
 .sidebar-toggle {
-  width: 230px;
+  width: 215px;
   transition: 0.7s;
 }
 .sidebar-toggle-icons {
