@@ -20,7 +20,7 @@ const Menus = ({ toggle }) => {
           <div className="navbar-profile-pic animate__animated animate__fadeIn">
             <img src={profilePic} alt="Profile Pic" />
           </div>
-          <div className="nav-items">
+          <div className="nav-items animate__animated animate__slideInLeft">
             <div className="nav-item">
               <div className="nav-link">
                 <FcHome />
@@ -59,7 +59,7 @@ const Menus = ({ toggle }) => {
         </>
       ) : (
         <>
-          <div className="nav-items">
+          <div className="nav-items animate__animated animate__slideInRight">
             <div className="nav-item">
               <div className="nav-link">
                 <FcHome title="Home" />
