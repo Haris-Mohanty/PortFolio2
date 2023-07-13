@@ -60,7 +60,7 @@ const Menus = ({ toggle }) => {
       ) : (
         <>
           <div className="nav-items">
-            <div className="nav-item navbar-item">
+            <div className="nav-item">
               <div className="nav-link">
                 <FcHome title="Home" />
               </div>
