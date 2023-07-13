@@ -16,7 +16,6 @@ const Layout = () => {
       <div className="sidebar-section">
         <div className={toggle ? "sidebar-toggle sidebar" : "sidebar"}>
           <div className="sidebar-toggle-icons">
-            <Menus />
             <p onClick={handleToggle}>
               {toggle ? (
                 <AiOutlineDoubleLeft size={30} />
@@ -25,6 +24,7 @@ const Layout = () => {
               )}
             </p>
           </div>
+          <Menus toggle={toggle} />
         </div>
         <div className="container">
           <Home />
