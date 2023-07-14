@@ -12,13 +12,14 @@ const About = () => {
           </div>
           <div className="col-md-6">
             <h1 className="font-Lato fw-bold text-primary">About Me</h1>
-            <hr/>
+            <hr />
             <p className="font-sofias">
-              Welcome to my website! I'm a passionate and experienced MERN-stack
-              web developer, dedicated to crafting robust and intuitive web
-              applications. With a strong foundation in MongoDB, Express.js,
-              React.js, and Node.js, I've successfully built numerous projects
-              that showcase my skills and expertise.
+              Welcome to my website! I'm{" "}
+              <b className="font-Lato">Haris Mohanty</b>, a passionate
+              MERN-stack web developer, dedicated to crafting robust and
+              intuitive web applications. With a strong foundation in MongoDB,
+              Express.js, React.js, and Node.js, I've successfully built
+              numerous projects that showcase my skills and expertise.
               <br />
               <br /> My journey as a web developer has been marked by a
               relentless pursuit of excellence, combining the latest
@@ -38,18 +39,13 @@ const About = () => {
               <br />
               <br /> I harness the power of Node.js and Express.js to build
               robust APIs and server-side logic that seamlessly integrate with
-              the front-end, providing a seamless user experience. I take
-              immense pride in my ability to transform complex requirements into
-              elegant, functional solutions. By leveraging the latest tools and
-              frameworks, I ensure that my projects are not only visually
-              appealing but also performant and scalable, delivering optimal
-              results for my clients. Feel free to explore my portfolio and dive
-              into the projects I've developed. If you have any questions or
-              would like to discuss potential collaborations, please don't
-              hesitate to reach out.
+              the front-end, providing a seamless user experience. Feel free to
+              explore my portfolio and dive into the projects I've developed. If
+              you have any questions or would like to discuss potential
+              collaborations, please don't hesitate to reach out.
               <br />
               <br />
-              <br /> <b className="d-flex float-end">Thank You!</b> <br/>
+              <br /> <b className="d-flex float-end">Thank You!</b> <br />
             </p>
           </div>
         </div>
