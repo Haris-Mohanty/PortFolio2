@@ -11,8 +11,8 @@ const About = () => {
             <img src={profilePic} alt="Profile Pic" />
           </div>
           <div className="col-md-6">
-            <h2>About Me</h2>
-            <p>
+            <h1 className="font-Lato fw-bold text-primary">About Me</h1>
+            <p className="font-sofias">
               Welcome to my website! I'm a passionate and experienced MERN-stack
               web developer, dedicated to crafting robust and intuitive web
               applications. With a strong foundation in MongoDB, Express.js,
@@ -47,7 +47,8 @@ const About = () => {
               would like to discuss potential collaborations, please don't
               hesitate to reach out.
               <br />
-              <br /> Thank You!
+              <br />
+              <br /> <h3 className="d-flex float-end">Thank You!</h3> <br/>
             </p>
           </div>
         </div>

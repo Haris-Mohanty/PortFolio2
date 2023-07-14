@@ -3,3 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+.font-sofias {
+  font-family: "Sofia", sans-serif;
+}
+.font-Audiowide {
+  font-family: "Audiowide", sans-serif;
+}
+.font-Lato {
+  font-family: "Lato", sans-serif;
+}
+.font-playfair {
+  font-family: "Playfair", sans-serif;
+}
