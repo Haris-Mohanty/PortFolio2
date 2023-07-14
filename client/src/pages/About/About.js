@@ -12,6 +12,7 @@ const About = () => {
           </div>
           <div className="col-md-6">
             <h1 className="font-Lato fw-bold text-primary">About Me</h1>
+            <hr/>
             <p className="font-sofias">
               Welcome to my website! I'm a passionate and experienced MERN-stack
               web developer, dedicated to crafting robust and intuitive web
@@ -48,7 +49,7 @@ const About = () => {
               hesitate to reach out.
               <br />
               <br />
-              <br /> <h3 className="d-flex float-end">Thank You!</h3> <br/>
+              <br /> <b className="d-flex float-end">Thank You!</b> <br/>
             </p>
           </div>
         </div>
