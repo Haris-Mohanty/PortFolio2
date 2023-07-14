@@ -77,11 +77,6 @@ export const TechstackList = [
     icon: SiFigma,
   },
   {
-    _id: 12,
-    name: "Adobe XD ",
-    icon: SiAdobexd,
-  },
-  {
     _id: 13,
     name: "Photoshop ",
     icon: SiAdobephotoshop,
@@ -125,15 +120,5 @@ export const TechstackList = [
     _id: 21,
     name: "Git / Github ",
     icon: SiGithub,
-  },
-  {
-    _id: 22,
-    name: "Docker ",
-    icon: SiDocker,
-  },
-  {
-    _id: 23,
-    name: "Nginx ",
-    icon: SiNginx,
   },
 ];
