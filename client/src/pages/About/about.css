@@ -1,1 +1,10 @@
-refc
+.about{
+    margin: 0 5px;
+    padding: 20px;
+    margin-left: 100px;
+
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+}
