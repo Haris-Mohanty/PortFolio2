@@ -16,7 +16,7 @@ const TechStack = () => {
         </p>
         <div className="row">
           {TechstackList.map((tech) => (
-            <div key={tech._id} className="col-md-3">
+            <div key={tech._id} className="col-md-3 mb-4">
               <div className="card m-2">
                 <div className="card-content">
                   <div className="card-body">
@@ -24,7 +24,7 @@ const TechStack = () => {
                       <div className="align-self-center">
                         <tech.icon className="tech-icon" />
                       </div>
-                      <div className="media-body">
+                      <div className="media-body font-Audiowide">
                         <h5>{tech.name}</h5>
                       </div>
                     </div>
