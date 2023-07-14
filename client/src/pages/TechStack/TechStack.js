@@ -16,7 +16,22 @@ const TechStack = () => {
         </p>
         <div className="row">
           {TechstackList.map((tech) => (
-            <h1>{tech.name}</h1>
+            <div className="col-md-3">
+              <div className="card m-2">
+                <div className="card-content">
+                  <div className="card-body">
+                    <div className="media d-flex justify-content-center">
+                      <div className="align-self-center">
+                        <tech.icon className="tech-icon" />
+                      </div>
+                      <div className="media-body">
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           ))}
         </div>
       </div>
