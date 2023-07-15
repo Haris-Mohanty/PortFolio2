@@ -17,7 +17,7 @@ const TechStack = () => {
         <div className="row">
           {TechstackList.map((tech) => (
             <div key={tech._id} className="col-md-3 mb-4">
-              <div className="card m-2">
+              <div className="card m-2 animate__animated animate__fadeIn">
                 <div className="card-content">
                   <div className="card-body">
                     <div className="media d-flex justify-content-center">
