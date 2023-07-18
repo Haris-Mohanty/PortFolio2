@@ -12,7 +12,11 @@ const Projects = () => {
         <p className="pb-3 text-center">
           ➡️Here are my recent projects with live links and source code.
         </p>
-        <div className=""></div>
+        <div className="row" id="ads">
+          <div className="col-md-4">
+            
+          </div>
+        </div>
       </div>
     </>
   );
