@@ -11,7 +11,7 @@ const Educations = () => {
   return (
     <>
       <div className="container education mb-">
-        <h2 className="col-12 mt-5 mb-1 text-center font-Lato text-uppercase">
+        <h2 className="col-12 mt-5 p-5 mb-1 text-center font-Lato text-uppercase">
           Education Details
         </h2>
         <hr />
