@@ -31,6 +31,7 @@ const WorkExp = () => {
               <h4 className="vertical-timeline-element-subtitle">
                 Mern Stack Developer
               </h4>
+              <p>I'm a Mern-Stack Developer.</p>
             </VerticalTimelineElement>
           </VerticalTimeline>
         </div>
