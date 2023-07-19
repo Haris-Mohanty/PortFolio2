@@ -42,6 +42,7 @@ const Projects = () => {
                     href="https://github.com/Haris-Mohanty/Education-App-Development"
                     className="ad-btn btn mt-1"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     View
                   </a>
@@ -73,6 +74,7 @@ const Projects = () => {
                     href="https://github.com/Haris-Mohanty/BloodHub"
                     className="ad-btn btn mt-1"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     View
                   </a>
@@ -104,6 +106,7 @@ const Projects = () => {
                     href="https://github.com/Haris-Mohanty/School-ERP-System"
                     className="ad-btn btn mt-1"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     View
                   </a>
