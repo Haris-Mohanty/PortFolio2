@@ -11,3 +11,20 @@
   font-weight: bold;
   color: #138781;
 }
+#ads{
+    margin: 30px 0 30px 0;
+}
+#ads .card-notify-badge{
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    background-color: #f29f67;
+    text-align: center;
+    border-radius: 30px;
+    color: black;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.card img{
+    height: 200px;
+}
