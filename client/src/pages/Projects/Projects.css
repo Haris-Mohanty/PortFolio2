@@ -11,20 +11,59 @@
   font-weight: bold;
   color: #138781;
 }
-#ads{
-    margin: 30px 0 30px 0;
+#ads {
+  margin: 30px 0 30px 0;
 }
-#ads .card-notify-badge{
-    position: absolute;
-    left: -10px;
-    top: -20px;
-    background-color: #f29f67;
-    text-align: center;
-    border-radius: 30px;
-    color: black;
-    padding: 5px 10px;
-    font-size: 14px;
+#ads .card-notify-badge {
+  position: absolute;
+  left: -10px;
+  top: -20px;
+  background-color: #f29f67;
+  text-align: center;
+  border-radius: 30px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
 }
-.card img{
-    height: 200px;
+.card img {
+  height: 200px;
+}
+.card-detail-badge {
+  background-color: #138781;
+  color: #fff;
+  border-radius: 18px;
+}
+.card-image-overly span {
+  display: inline-block;
+  margin-left: 5px;
+}
+.ad-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 150px;
+  background-color: #138781;
+  color: #fff;
+  padding: 11px;
+  margin: 20px auto 20px auto;
+  border-radius: 5px;
+  font-size: 16px;
+  overflow: hidden;
+  position: relative;
+  font-weight: bold;
+}
+.ad-btn:hover {
+  background-color: #fff8f3;
+  color: #1d0db0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: 0.4s ease-in-out;
+}
+.card:hover {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: 0.4s ease-in-out;
 }
