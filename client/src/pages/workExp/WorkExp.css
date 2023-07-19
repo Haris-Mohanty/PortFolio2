@@ -1,0 +1,17 @@
+.workExp {
+  margin: 50px 0;
+  margin-left: 120px;
+  background-color: #6213870d;
+}
+.workExp hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+.workExp h2 {
+  font-weight: bold;
+  color: #138781;
+}
+.work{
+    padding: 50px 0px;
+}
