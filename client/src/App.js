@@ -16,7 +16,10 @@ function App() {
         <TechStack />
         <Projects />
         <WorkExp />
-        <Contact/>
+        <Contact />
+      </div>
+      <div className="footer mb-3 ms-3">
+        <h4 className="text-center">Made With❤️ Haris Mohanty &copy; 2023</h4>
       </div>
     </>
   );
