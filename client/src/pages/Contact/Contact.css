@@ -1,0 +1,15 @@
+.contact {
+  margin-left: 110px;
+  margin-bottom: 60px;
+  padding-top: 50px;
+}
+.card0 {
+  box-shadow: 0px 4px 8px 0px #757575;
+  border-radius: 0px;
+}
+.card1 img{
+    padding: 30px;
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+}

@@ -50,7 +50,7 @@ const Educations = () => {
             iconStyle={{ background: "#138781", color: "#fff" }}
             icon={<MdSchool />}
           >
-            <h3 className="vertical-timeline-element-title font-playfair fw-bold">Scholling</h3>
+            <h3 className="vertical-timeline-element-title font-playfair fw-bold">Schooling</h3>
             <h4 className="vertical-timeline-element-subtitle">CHSE, Odisha</h4>
             <p>Council of Higher Secondary Education,Odisha.</p>
           </VerticalTimelineElement>
