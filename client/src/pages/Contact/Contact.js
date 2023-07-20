@@ -21,10 +21,10 @@ const Contact = () => {
                 <div className="row">
                   <h6>
                     Contact with
-                    <BsLinkedin color="blue" className="ms-2" size={30} />
-                    <BsGithub color="black" className="ms-2" size={30} />
-                    <BsFacebook color="blue" className="ms-2" size={30} />
-                    <BsTwitter color="aqua" className="ms-2" size={30} />
+                    <BsLinkedin color="blue" className="ms-2" size={29} />
+                    <BsGithub color="black" className="ms-2" size={29} />
+                    <BsFacebook color="blue" className="ms-2" size={29} />
+                    <BsTwitter color="aqua" className="ms-2" size={29} />
                   </h6>
                 </div>
                 <div className="row px-3 mb-4">
