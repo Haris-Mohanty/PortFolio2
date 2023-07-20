@@ -13,3 +13,23 @@
     height: 100%;
     width: 100%;
 }
+.line{
+    height: 1px;
+    width: 45%;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+}
+.or{
+    display: flex;
+    width: 10%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input,textarea{
+    padding: 10px 12px;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    margin-top: 5px;
+    width: 100%;
+    color: #138681;
+}

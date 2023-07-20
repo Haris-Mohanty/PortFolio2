@@ -16,8 +16,8 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-md-6 col-lg-6">
-              <div className="row">
-                <div className="card2 d-flex card border-0 mt-5">
+              <div className="card2 d-flex card border-0 mt-5">
+                <div className="row">
                   <h6>Contact with Us</h6>
                 </div>
                 <div className="row px-3 mb-4">
@@ -50,7 +50,9 @@ const Contact = () => {
                   />
                 </div>
                 <div className="row px-3">
-                  <button className="btn btn-primary" type="submit">Send Message</button>
+                  <button className="btn btn-primary" type="submit">
+                    Send Message
+                  </button>
                 </div>
               </div>
             </div>
