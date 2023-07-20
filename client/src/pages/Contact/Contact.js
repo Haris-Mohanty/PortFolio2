@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import contact from "./../../Assets/Images/contact.jpg";
+import { BsLinkedin, BsGithub, BsFacebook, BsTwitter } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -18,7 +19,13 @@ const Contact = () => {
             <div className="col-md-6 col-lg-6">
               <div className="card2 d-flex card border-0 mt-5">
                 <div className="row">
-                  <h6>Contact with Us</h6>
+                  <h6>
+                    Contact with
+                    <BsLinkedin color="blue" className="ms-2" size={30} />
+                    <BsGithub color="black" className="ms-2" size={30} />
+                    <BsFacebook color="blue" className="ms-2" size={30} />
+                    <BsTwitter color="aqua" className="ms-2" size={30} />
+                  </h6>
                 </div>
                 <div className="row px-3 mb-4">
                   <div className="line" />
