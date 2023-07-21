@@ -20,11 +20,11 @@ const Contact = () => {
               <div className="card2 d-flex card border-0 mt-5">
                 <div className="row">
                   <h6>
-                    Contact with
-                    <BsLinkedin color="blue" className="ms-2" size={29} />
-                    <BsGithub color="black" className="ms-2" size={29} />
-                    <BsFacebook color="blue" className="ms-2" size={29} />
-                    <BsTwitter color="aqua" className="ms-2" size={29} />
+                    Contact with:
+                    <BsLinkedin color="blue" className="ms-3" size={29} />
+                    <BsGithub color="black" className="ms-3" size={29} />
+                    <BsFacebook color="blue" className="ms-3" size={29} />
+                    <BsTwitter color="aqua" className="ms-3" size={29} />
                   </h6>
                 </div>
                 <div className="row px-3 mb-4">
