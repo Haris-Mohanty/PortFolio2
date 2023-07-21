@@ -26,3 +26,10 @@
   transition: 0.6s ease-in-out;
   color: #f29a67;
 }
+
+.nav-link .active{
+  color: #f29a67;
+  border-left: 5px solid #f29a67;
+  padding-left: 10px;
+  text-decoration: none;
+}
