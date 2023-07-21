@@ -1,6 +1,7 @@
 import React from "react";
 import "./Menus.css";
 import profilePic from "./../../Assets/Images/profile-pic.png";
+import { Link } from "react-scroll";
 import {
   FcHome,
   FcAbout,
