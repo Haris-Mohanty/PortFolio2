@@ -23,32 +23,88 @@ const Menus = ({ toggle }) => {
           <div className="nav-items animate__animated animate__slideInLeft">
             <div className="nav-item">
               <div className="nav-link">
-                <FcHome />
-                Home
+                <Link
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcHome />
+                  Home
+                </Link>
               </div>
               <div className="nav-link">
-                <FcAbout />
-                About
+                <Link
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcAbout />
+                  About
+                </Link>
               </div>
               <div className="nav-link">
+              <Link
+                  to="education"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
                 <FcReadingEbook />
                 Education
+                </Link>
               </div>
               <div className="nav-link">
+              <Link
+                  to="tech"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
                 <FcBiotech />
                 Tech Stack
+                </Link>
               </div>
               <div className="nav-link">
+              <Link
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
                 <FcVideoProjector />
                 Projects
+                </Link>
               </div>
               <div className="nav-link">
+              <Link
+                  to="exp"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
                 <FcPortraitMode />
                 Experience
+                </Link>
               </div>
               <div className="nav-link">
+              <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
                 <FcBusinessContact />
                 Contact
+                </Link>
               </div>
             </div>
           </div>

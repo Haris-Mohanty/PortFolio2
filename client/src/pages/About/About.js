@@ -5,7 +5,7 @@ import profilePic from "./../../Assets/Images/profile-pic.png";
 const About = () => {
   return (
     <>
-      <div className="about">
+      <div className="about" id="about">
         <div className="row">
           <div className="col-md-6 about-img">
             <img src={profilePic} alt="Profile Pic" />
