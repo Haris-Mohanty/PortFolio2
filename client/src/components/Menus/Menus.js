@@ -47,63 +47,63 @@ const Menus = ({ toggle }) => {
                 </Link>
               </div>
               <div className="nav-link">
-              <Link
+                <Link
                   to="education"
                   spy={true}
                   smooth={true}
                   offset={-100}
                   duration={100}
                 >
-                <FcReadingEbook />
-                Education
+                  <FcReadingEbook />
+                  Education
                 </Link>
               </div>
               <div className="nav-link">
-              <Link
+                <Link
                   to="tech"
                   spy={true}
                   smooth={true}
                   offset={-100}
                   duration={100}
                 >
-                <FcBiotech />
-                Tech Stack
+                  <FcBiotech />
+                  Tech Stack
                 </Link>
               </div>
               <div className="nav-link">
-              <Link
+                <Link
                   to="projects"
                   spy={true}
                   smooth={true}
                   offset={-100}
                   duration={100}
                 >
-                <FcVideoProjector />
-                Projects
+                  <FcVideoProjector />
+                  Projects
                 </Link>
               </div>
               <div className="nav-link">
-              <Link
+                <Link
                   to="exp"
                   spy={true}
                   smooth={true}
                   offset={-100}
                   duration={100}
                 >
-                <FcPortraitMode />
-                Experience
+                  <FcPortraitMode />
+                  Experience
                 </Link>
               </div>
               <div className="nav-link">
-              <Link
+                <Link
                   to="contact"
                   spy={true}
                   smooth={true}
                   offset={-100}
                   duration={100}
                 >
-                <FcBusinessContact />
-                Contact
+                  <FcBusinessContact />
+                  Contact
                 </Link>
               </div>
             </div>

@@ -10,7 +10,7 @@ import { SiReact } from "react-icons/si";
 const WorkExp = () => {
   return (
     <>
-      <div className="container workExp">
+      <div className="container workExp" id="exp">
         <div className="work">
           <h2 className="col-12 mt-4 mb-1 text-center font-Lato text-uppercase">
             Work Experience

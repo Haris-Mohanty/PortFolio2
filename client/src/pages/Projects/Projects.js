@@ -10,7 +10,7 @@ import projectImg3 from "./../../Assets/Images/project-img3.png";
 const Projects = () => {
   return (
     <>
-      <div className="container project">
+      <div className="container project" id="projects">
         <h2 className="col-12 mt-4 mb-1 text-center font-Lato text-uppercase">
           My Recent Projects
         </h2>
