@@ -9,13 +9,13 @@ const Home = () => {
 
   //handle theme
   const handleTheme = () => {
-    
+    setTheme((prevState) => (prevState === "light" ? "dark" : "light"));
   };
 
   return (
     <>
       <div className="container-fluid home-container" id="home">
-        <div className="theme-btn">
+        <div className="theme-btn" onClick={handleTheme}>
           {theme === "light" ? (
             <BsFillMoonStarsFill size={28} />
           ) : (
