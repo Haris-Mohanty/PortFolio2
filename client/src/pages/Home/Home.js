@@ -7,11 +7,20 @@ import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 const Home = () => {
   const [theme, setTheme] = useTheme();
 
+  //handle theme
+  const handleTheme = () => {
+    
+  };
+
   return (
     <>
       <div className="container-fluid home-container" id="home">
         <div className="theme-btn">
-          {theme === "light" ? <BsFillMoonStarsFill /> : <BsFillSunFill />}
+          {theme === "light" ? (
+            <BsFillMoonStarsFill size={28} />
+          ) : (
+            <BsFillSunFill size={25} />
+          )}
         </div>
         <div className="container home-content">
           <h1>Hi ! I'm a</h1>
