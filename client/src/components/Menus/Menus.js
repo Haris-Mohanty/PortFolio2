@@ -2,6 +2,7 @@ import React from "react";
 import "./Menus.css";
 import profilePic from "./../../Assets/Images/profile-pic.png";
 import { Link } from "react-scroll";
+import Zoom from "react-reveal/Zoom";
 import {
   FcHome,
   FcAbout,
@@ -17,9 +18,12 @@ const Menus = ({ toggle }) => {
     <>
       {toggle ? (
         <>
-          <div className="navbar-profile-pic animate__animated animate__fadeIn">
-            <img src={profilePic} alt="Profile Pic" />
-          </div>
+          <Zoom>
+            <div className="navbar-profile-pic animate__animated animate__fadeIn">
+              <img src={profilePic} alt="Profile Pic" />
+            </div>
+          </Zoom>
+
           <div className="nav-items animate__animated animate__slideInLeft">
             <div className="nav-item">
               <div className="nav-link">
