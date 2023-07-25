@@ -2,6 +2,7 @@ import React from "react";
 import { useTheme } from "../../context/ThemeContext";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
+import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 
 const Home = () => {
   const [theme, setTheme] = useTheme();
@@ -9,7 +10,9 @@ const Home = () => {
   return (
     <>
       <div className="container-fluid home-container" id="home">
-        <div className="theme-btn"></div>
+        <div className="theme-btn">
+          {theme === "light" ? <BsFillMoonStarsFill /> : <BsFillSunFill />}
+        </div>
         <div className="container home-content">
           <h1>Hi ! I'm a</h1>
           <h2>
