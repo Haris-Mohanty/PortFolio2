@@ -3,6 +3,7 @@ import { useTheme } from "../../context/ThemeContext";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
+import Fade from "react-reveal/Fade";
 
 const Home = () => {
   const [theme, setTheme] = useTheme();
@@ -23,25 +24,31 @@ const Home = () => {
           )}
         </div>
         <div className="container home-content">
-          <h1>Hi ! I'm a</h1>
-          <h2>
-            <Typewriter
-              options={{
-                strings: [
-                  "Mern-stack Developer!",
-                  "Coder!",
-                  "Problem Solver!",
-                  "Full-stack developer!",
-                ],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </h2>
-          <div className="home-buttons">
-            <button className="btn btn-hire">Hire me!</button>
-            <button className="btn btn-cv">My Resume</button>
-          </div>
+          <Fade top>
+            <h1>Hi ! I'm a</h1>
+          </Fade>
+          <Fade right>
+            <h2>
+              <Typewriter
+                options={{
+                  strings: [
+                    "Mern-stack Developer!",
+                    "Coder!",
+                    "Problem Solver!",
+                    "Full-stack developer!",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </h2>
+          </Fade>
+          <Fade bottom>
+            <div className="home-buttons">
+              <button className="btn btn-hire">Hire me!</button>
+              <button className="btn btn-cv">My Resume</button>
+            </div>
+          </Fade>
         </div>
       </div>
     </>
