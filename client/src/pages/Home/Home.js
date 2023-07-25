@@ -1,11 +1,15 @@
 import React from "react";
+import { useTheme } from "../../context/ThemeContext";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
 
 const Home = () => {
+  const [theme, setTheme] = useTheme();
+
   return (
     <>
       <div className="container-fluid home-container" id="home">
+        <div className="theme-btn"></div>
         <div className="container home-content">
           <h1>Hi ! I'm a</h1>
           <h2>
