@@ -15,3 +15,11 @@
 .font-playfair {
   font-family: "Playfair", sans-serif;
 }
+
+
+/********** DAEK MODE **/
+
+#dark{
+  background-color: #141B2D;
+  color: #f4eee0;
+}

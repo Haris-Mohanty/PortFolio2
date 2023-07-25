@@ -11,3 +11,13 @@
 .float-end{
     font-size: 21px;
 }
+/* ======== DARK MODE ========= */
+
+#dark .about {
+    box-shadow: none;
+  }
+  
+  #dark .about-content h1 {
+    color: #b0a4a4;
+    border-bottom: 2px solid #b0a4a4;
+  }

@@ -18,7 +18,7 @@ const Educations = () => {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "white", color: "black" }}
+            contentStyle={{ background: "white", color: "green" }}
             contentArrowStyle={{ borderRight: "7px solid  gray" }}
             date="2022 - present"
             iconStyle={{ background: "#138781", color: "#fff" }}
@@ -30,7 +30,7 @@ const Educations = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "white", color: "black" }}
+            contentStyle={{ background: "white", color: "green" }}
             contentArrowStyle={{ borderRight: "7px solid  gray" }}
             date="2019 - 2022"
             iconStyle={{ background: "#138781", color: "#fff" }}
@@ -44,7 +44,7 @@ const Educations = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "white", color: "black" }}
+            contentStyle={{ background: "white", color: "green" }}
             contentArrowStyle={{ borderRight: "7px solid  gray" }}
             date="2017 - 2019"
             iconStyle={{ background: "#138781", color: "#fff" }}

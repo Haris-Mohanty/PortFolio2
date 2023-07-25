@@ -6,21 +6,25 @@ import Projects from "./pages/Projects/Projects";
 import TechStack from "./pages/TechStack/TechStack";
 import WorkExp from "./pages/workExp/WorkExp";
 import ScrollToTop from "react-scroll-to-top";
+import { useTheme } from "./context/ThemeContext";
 
 function App() {
+  const [theme] = useTheme();
   return (
     <>
-      <Layout />
-      <div className="container">
-        <About />
-        <Educations />
-        <TechStack />
-        <Projects />
-        <WorkExp />
-        <Contact />
-      </div>
-      <div className="footer mb-3 ms-3">
-        <h4 className="text-center">Made With❤️ Haris Mohanty &copy; 2023</h4>
+      <div id={theme}>
+        <Layout />
+        <div className="container">
+          <About />
+          <Educations />
+          <TechStack />
+          <Projects />
+          <WorkExp />
+          <Contact />
+        </div>
+        <div className="footer pb-3 ms-3">
+          <h4 className="text-center">Made With❤️ Haris Mohanty &copy; 2023</h4>
+        </div>
       </div>
       <ScrollToTop
         smooth

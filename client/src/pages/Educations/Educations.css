@@ -18,3 +18,6 @@
 .vertical-timeline-element-subtitle {
   color: #1e1e2c;
 }
+#dark .vertical-timeline-element--work {
+  color: #f4eee0;
+}
