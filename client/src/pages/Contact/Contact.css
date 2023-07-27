@@ -33,3 +33,8 @@ input,textarea{
     width: 100%;
     color: #138681;
 }
+
+/* Media */
+@media (max-width:600px) {
+  
+}
