@@ -29,6 +29,14 @@
 }
 
 /* Media */
-@media (max-width:600px){
-  
+@media (max-width: 600px) {
+  .techstack {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .techstack hr {
+    color: #138781;
+    width: auto;
+  }
 }
