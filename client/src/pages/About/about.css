@@ -1,23 +1,34 @@
-.about{
-    margin: 0 5px;
-    padding: 20px;
-    margin-left: 100px;
-
+.about {
+  margin: 0 5px;
+  padding: 20px;
+  margin-left: 100px;
 }
-.about-img img{
-    width: 100%;
-    height: 90%;
+.about-img img {
+  width: 100%;
+  height: 90%;
 }
-.float-end{
-    font-size: 21px;
+.float-end {
+  font-size: 21px;
 }
 /* ======== DARK MODE ========= */
 
 #dark .about {
-    box-shadow: none;
+  box-shadow: none;
+}
+
+#dark .about-content h1 {
+  color: #b0a4a4;
+  border-bottom: 2px solid #b0a4a4;
+}
+
+/* Media */
+@media (max-width: 600px) {
+  .about {
+    margin: 0;
+    padding: 0;
   }
-  
-  #dark .about-content h1 {
-    color: #b0a4a4;
-    border-bottom: 2px solid #b0a4a4;
+  .about-img img {
+    width: 100%;
+    height: 100%;
   }
+}
