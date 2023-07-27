@@ -13,7 +13,7 @@ const About = () => {
           </div>
           <Jump>
             <div className="col-md-6">
-              <h1 className="font-Lato fw-bold text-primary">About Me</h1>
+              <h1 className="font-Lato fw-bold text-primary about-me">About Me</h1>
               <hr />
               <p className="font-sofias">
                 Welcome to my website! I'm{" "}

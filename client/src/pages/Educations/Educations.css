@@ -21,3 +21,12 @@
 #dark .vertical-timeline-element--work {
   color: #f4eee0;
 }
+
+
+/* Media */
+@media (max-width:600px){
+  .education{
+    margin: 0;
+    padding: 0;
+  }
+}
