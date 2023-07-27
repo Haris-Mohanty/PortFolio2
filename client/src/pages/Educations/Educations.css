@@ -10,6 +10,7 @@
 }
 .education h2 {
   font-weight: bold;
+  letter-spacing: 1.2px;
   color: #138781;
 }
 .vertical-timeline-element-title {
@@ -22,11 +23,19 @@
   color: #f4eee0;
 }
 
-
 /* Media */
-@media (max-width:600px){
-  .education{
+@media (max-width: 600px) {
+  .education {
     margin: 0;
     padding: 0;
+    margin-top: -15px;
+  }
+  .education h2 {
+    font-weight: bold;
+    padding: 2px;
+  }
+  .education hr {
+    width: auto;
+    margin: 0;
   }
 }
