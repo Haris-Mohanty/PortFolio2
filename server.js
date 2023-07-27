@@ -13,9 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 //Routes
-app.get("/", (req, res) => {
-  res.send("Success");
-});
+app.use("/api/v1/portfolio", require("./routes/portFolioRoutes"));
 
 //Port
 const port = process.env.PORT || 8080;
