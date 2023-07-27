@@ -69,6 +69,19 @@
 }
 
 /* media */
-@media (max-width:600px){
-  
+@media (max-width: 600px) {
+  .project {
+    margin: 0;
+    padding: 0;
+  }
+  .project hr {
+    width: auto;
+    margin: 0;
+  }
+  .project .card {
+    margin: 2px 0 20px 0;
+  }
+  .card-detail-badge {
+    font-size: 12px;
+  }
 }
