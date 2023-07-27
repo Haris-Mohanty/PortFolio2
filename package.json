@@ -1,0 +1,11 @@
+{
+  "name": "port-folio-2",
+  "version": "1.0.0",
+  "description": "Port Folio App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Haris Mohanty",
+  "license": "MIT"
+}
