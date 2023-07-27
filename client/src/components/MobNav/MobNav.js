@@ -42,7 +42,7 @@ const MobileNav = () => {
             />
           )}
 
-          <span className="mobile-nav-title">My Portfolio App</span>
+          <span className="mobile-nav-title">Haris Mohanty</span>
         </div>
         {open && (
           <div className="mobile-nav-menu">
