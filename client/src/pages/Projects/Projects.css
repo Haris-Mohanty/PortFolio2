@@ -67,3 +67,8 @@
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   transition: 0.4s ease-in-out;
 }
+
+/* media */
+@media (max-width:600px){
+  
+}
