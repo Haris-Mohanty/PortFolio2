@@ -2,8 +2,7 @@ import React from "react";
 import "./TechStack.css";
 import { TechstackList } from "../../utils/TechStackList";
 import RubberBand from "react-reveal/RubberBand";
-import Fade from "react-reveal/Fade"
-
+import Fade from "react-reveal/Fade";
 
 const TechStack = () => {
   return (
@@ -20,8 +19,8 @@ const TechStack = () => {
           </p>
         </RubberBand>
         <div className="row">
-          {TechstackList.map((tech) => (
-            <Fade left>
+          <Fade left>
+            {TechstackList.map((tech) => (
               <div key={tech._id} className="col-md-3 mb-4">
                 <div className="card m-2 animate__animated animate__fadeIn">
                   <div className="card-content">
@@ -38,8 +37,8 @@ const TechStack = () => {
                   </div>
                 </div>
               </div>
-            </Fade>
-          ))}
+            ))}
+          </Fade>
         </div>
       </div>
     </>
