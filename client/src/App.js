@@ -7,12 +7,14 @@ import TechStack from "./pages/TechStack/TechStack";
 import WorkExp from "./pages/workExp/WorkExp";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
+import MobileNav from "./components/MobNav/MobNav";
 
 function App() {
   const [theme] = useTheme();
   return (
     <>
       <div id={theme}>
+        <MobileNav />
         <Layout />
         <div className="container">
           <About />
