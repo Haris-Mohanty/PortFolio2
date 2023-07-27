@@ -16,10 +16,19 @@
   font-family: "Playfair", sans-serif;
 }
 
-
 /********** DAEK MODE **/
 
-#dark{
-  background-color: #141B2D;
+#dark {
+  background-color: #141b2d;
   color: #f4eee0;
+}
+@media (max-width: 600px) {
+  .footer {
+    margin: 0;
+    padding: 0;
+  }
+  .footer .text-center {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 }
