@@ -15,6 +15,9 @@ const sendEmailController = (req, res) => {
     const { name, email, msg } = req.body;
 
     //Validation
+    if(!name || !email || !msg){
+      
+    }
 
     return res.status(200).send({
       success: true,
