@@ -15,9 +15,14 @@ const sendEmailController = (req, res) => {
     const { name, email, msg } = req.body;
 
     //Validation
-    if(!name || !email || !msg){
-      
+    if (!name || !email || !msg) {
+      return res.status(500).send({
+        success: false,
+        message: "Please Provide all Fields!",
+      });
     }
+
+    //Email matter
 
     return res.status(200).send({
       success: true,
