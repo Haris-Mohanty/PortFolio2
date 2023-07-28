@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
+import axios from "axios";
 import "./Contact.css";
 import contact from "./../../Assets/Images/contact.jpg";
 import { BsLinkedin, BsGithub, BsFacebook, BsTwitter } from "react-icons/bs";
@@ -11,12 +12,15 @@ const Contact = () => {
   const [msg, setMsg] = useState("");
 
   //handle submit button
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+
     try {
       if (!name || !email || !msg) {
         toast.error("Please provide all fields!");
       }
+      //
+      const response = await axios.post('/api/v1/portfolio/sendMail')
     } catch (err) {
       console.log(err);
     }
