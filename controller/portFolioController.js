@@ -23,6 +23,7 @@ const sendEmailController = (req, res) => {
     }
 
     //Email matter
+    transporter.sendMail({});
 
     return res.status(200).send({
       success: true,
