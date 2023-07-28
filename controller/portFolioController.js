@@ -1,3 +1,9 @@
+const nodeMailer = require("nodemailer");
+const sendGridTransport = require("nodemailer-sendgrid-transport");
+
+//Transport
+const transporter = nodeMailer
+
 const sendEmailController = (req, res) => {
   try {
     return res.status(200).send({
