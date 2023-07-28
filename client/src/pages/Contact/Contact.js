@@ -55,6 +55,7 @@ const Contact = () => {
                     placeholder="Enter Your Email"
                     className="mb-3 form-control"
                     value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
                 <div className="row px-3">
@@ -64,6 +65,7 @@ const Contact = () => {
                     placeholder="Enter Your Message"
                     className="mb-3 form-control"
                     value={msg}
+                    onChange={(e) => setMsg(e.target.value)}
                   />
                 </div>
                 <div className="row px-3">
