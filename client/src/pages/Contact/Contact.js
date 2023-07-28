@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import contact from "./../../Assets/Images/contact.jpg";
 import { BsLinkedin, BsGithub, BsFacebook, BsTwitter } from "react-icons/bs";
 import Zoom from "react-reveal/Zoom";
 
 const Contact = () => {
+  const [name, setName] = useState("");
   return (
     <>
       <div className="container contact" id="contacts">
