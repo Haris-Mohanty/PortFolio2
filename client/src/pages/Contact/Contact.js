@@ -20,7 +20,17 @@ const Contact = () => {
         toast.error("Please provide all fields!");
       }
       //
-      const response = await axios.post('/api/v1/portfolio/sendMail')
+      const response = await axios.post("/api/v1/portfolio/sendMail", {
+        name,
+        email,
+        msg,
+      });
+      //validation success
+      if (response.data.success) {
+        toast.success(response.data.message);
+      } else {
+        toast.error(response.data.message);
+      }
     } catch (err) {
       console.log(err);
     }
