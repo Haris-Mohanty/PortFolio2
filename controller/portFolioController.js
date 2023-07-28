@@ -2,10 +2,20 @@ const nodeMailer = require("nodemailer");
 const sendGridTransport = require("nodemailer-sendgrid-transport");
 
 //Transport
-const transporter = nodeMailer
+const transporter = nodeMailer.createTransport(
+  sendGridTransport({
+    auth: {
+      api_key: process.env.API_SENDGRID,
+    },
+  })
+);
 
 const sendEmailController = (req, res) => {
   try {
+    const { name, email, msg } = req.body;
+
+    //Validation
+
     return res.status(200).send({
       success: true,
       message: "Your Message Sent Successfully!",
