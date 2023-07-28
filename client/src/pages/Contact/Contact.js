@@ -28,6 +28,9 @@ const Contact = () => {
       //validation success
       if (response.data.success) {
         toast.success(response.data.message);
+        setName("");
+        setEmail("");
+        setMsg("");
       } else {
         toast.error(response.data.message);
       }
