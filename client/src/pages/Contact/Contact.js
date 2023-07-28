@@ -6,6 +6,8 @@ import Zoom from "react-reveal/Zoom";
 
 const Contact = () => {
   const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [msg, setMsg] = useState("");
   return (
     <>
       <div className="container contact" id="contacts">
