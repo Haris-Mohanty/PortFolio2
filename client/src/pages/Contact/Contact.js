@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.css";
 import contact from "./../../Assets/Images/contact.jpg";
 import { BsLinkedin, BsGithub, BsFacebook, BsTwitter } from "react-icons/bs";
+import Zoom from "react-reveal/Zoom";
 
 const Contact = () => {
   return (
@@ -11,9 +12,11 @@ const Contact = () => {
           <div className="row">
             <div className="col-md-6 col-lg-6">
               <div className="card1">
-                <div className="row border-line">
-                  <img src={contact} alt="Contact Us" />
-                </div>
+                <Zoom>
+                  <div className="row border-line">
+                    <img src={contact} alt="Contact Us" />
+                  </div>
+                </Zoom>
               </div>
             </div>
             <div className="col-md-6 col-lg-6">
