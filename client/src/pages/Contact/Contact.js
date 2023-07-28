@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { toast } from "react-toastify";
 import "./Contact.css";
 import contact from "./../../Assets/Images/contact.jpg";
 import { BsLinkedin, BsGithub, BsFacebook, BsTwitter } from "react-icons/bs";
@@ -14,7 +15,7 @@ const Contact = () => {
     e.preventDefault();
     try {
       if (!name || !email || !msg) {
-        alert("Please provide all fields!");
+        toast.error("Please provide all fields!");
       }
     } catch (err) {
       console.log(err);
