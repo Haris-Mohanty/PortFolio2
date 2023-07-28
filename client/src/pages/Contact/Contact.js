@@ -12,6 +12,13 @@ const Contact = () => {
   //handle submit button
   const handleSubmit = (e) => {
     e.preventDefault();
+    try {
+      if (!name || !email || !msg) {
+        alert("Please provide all fields!");
+      }
+    } catch (err) {
+      console.log(err);
+    }
   };
   return (
     <>
@@ -74,7 +81,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="row px-3">
-                  <button className="btn btn-primary" type="submit">
+                  <button className="btn btn-primary" onClick={handleSubmit}>
                     Send Message
                   </button>
                 </div>
